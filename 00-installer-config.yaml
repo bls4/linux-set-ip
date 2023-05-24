@@ -2,7 +2,7 @@ network:
   version: 2
   renderer: networkd
   ethernets:
-    enp0s3:
+    ens18:
       dhcp4: no
       addresses:
         - 192.168.0.101/24
